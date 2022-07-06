@@ -1,0 +1,20 @@
+
+1a parte:
+
+pyinstaller --onefile --noconsole Chat_Espaco_de_Tuplas.py
+
+2a parte
+
+('recursos/icone.ico','recursos'),('recursos/gifs/chat_bubble_GIF.gif','recursos/gifs'),('recursos/botao_Entrar.png','recursos'),('recursos/botao_Conversar.png','recursos'),('recursos/botao_mandar_msg.png','recursos'),('recursos/bg_usuario_lobby.png','recursos'),('recursos/bg_usuario_Chat.png','recursos'),('recursos/bg_configurar_Usuario.png','recursos'),('recursos/botao_Conversar_privado.png','recursos'),('recursos/bg_Gera_Usuario.png','recursos'),('recursos/botao_gerar_Usuario.png','recursos'),('recursos/bg_nome_repetido_warning.png','recursos'),('recursos/bg_nome_repetido_sala_warning.png','recursos'),('recursos/botao_Ok.png','recursos'),('recursos/chat_bubble_ICON.png','recursos')
+
+pyinstaller Chat_Espaco_de_Tuplas.spec
+
+************************************************************
+
+Como converter um ".py" para ".EXE": 
+
+https://stackoverflow.com/questions/54210392/how-can-i-convert-pygame-to-exe
+
+(Extra)- https://stackoverflow.com/questions/51291081/noconsole-not-working-with-pyinstaller
+
+
